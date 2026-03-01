@@ -1,50 +1,22 @@
-# React + TypeScript + Vite
+## Overview
+A comprehensive onboarding platform designed to guide new hires through their technical journey at the company. This platform helps freshers identify their career path, join project teams, and access tailored learning resources.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Purpose
+The platform streamlines the onboarding process by:
 
-Currently, two official plugins are available:
+**Tech Stack Selection - Helping freshers choose between Frontend, Backend, or DevOps tracks**
+Team Assignment - Allowing them to explore and enroll in various project teams
+Project Guidance - Providing curated learning paths, required libraries, packages, and business context for each project
+## Features
+🎯 Interactive tech stack selection interface
+👥 Project team browsing and enrollment
+📚 Customized study materials and resources
+📦 Installation guides for required packages and dependencies
+💼 Business case explanations for each project
+🗺️ Personalized learning roadmaps
+## Tech Stack
+Framework: React with TypeScript (TSX)
+Styling: SCSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## Target Users
+New employees (freshers) joining the company's technical teams.
